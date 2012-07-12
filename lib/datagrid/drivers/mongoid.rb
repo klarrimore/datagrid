@@ -12,7 +12,7 @@ module Datagrid
       end
 
       def to_scope(scope)
-        scope.where
+        scope.criteria
       end
 
       def where(scope, condition)
